@@ -129,13 +129,11 @@ btnyz.onclick=function(){
 	
 	//alert("本次活动已经结束!");
 	//return;
-                alert("start");
+
 	if(textmsg1()){	
 		ajaxqj();
-                                 alert("end1");
 	}else if(textmsg2()){	
 		ajaxqj();
-                                 alert("end2");
 	}else{
 		msgts.style.display="block";
 		msgarea.innerText="请输入有效的SN码";
